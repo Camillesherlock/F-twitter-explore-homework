@@ -1,3 +1,19 @@
 @import "variables";
 @import "mixins";
 @import "reboot";
+
+.twitter-header {
+ display:flex;
+ justify-content: space-between;
+ align-items: center;
+   padding: $basic-padding-y $basic-padding-x;
+   border-bottom: solid 1px $border-color;
+}
+
+.middle-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  height: 100%;
+}
