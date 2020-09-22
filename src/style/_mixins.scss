@@ -2,6 +2,7 @@
   margin-top: 0;
   font-size: $font-size;
 }
+//todo feedback: varient单词拼写错误，应该是variant
 @mixin form-varient($height, $width) {
   display: flex;
   flex-flow: column;
@@ -11,7 +12,8 @@
   height: $height;
   width: $width;
 }
-
+//todo feedback: varient单词拼写错误，应该是variant
+//TODO feedback: $hover-volor单词拼写错误，应该是$hover-color
 @mixin link-varient($color, $hover-volor, $decoration: false) {
   color: $color;
   text-decoration: $decoration;
@@ -19,6 +21,7 @@
     color: $hover-volor;
   }
 }
+//todo feedback: varient单词拼写错误，应该是variant
 @mixin btn-varient($bg-color, $color) {
   padding: 3px 30px;
   border-radius: 60px;
